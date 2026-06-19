@@ -7,7 +7,8 @@ Classic test Python program/repository
 ```bash
 git clone https://github/ChrisSim01/hello_world.git
 cd hello_world
-python -m venv venv && source venv/bin/activate
+python -m venv venv 
+source venv/bin/activate
 pip install -r requirements.txt
 python src/hello-world.py
 
